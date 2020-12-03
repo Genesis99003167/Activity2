@@ -40,20 +40,20 @@ void testarmstrong(void)
   TEST_ASSERT_EQUAL_MESSAGE(-1, checkarmstrong(-21), "-21");
 }
 //MAGIC NUMBER//
-void testmagic(void)
-{
-  TEST_ASSERT_EQUAL_MESSAGE(1, checkmagic(52), "52");
-  TEST_ASSERT_EQUAL_MESSAGE(0, checkmagic(12345), "12345");
-}
+// void testmagic(void)
+// {
+//   TEST_ASSERT_EQUAL_MESSAGE(1, checkmagic(52), "52");
+//   TEST_ASSERT_EQUAL_MESSAGE(0, checkmagic(12345), "12345");
+// }
 
 //NEON NUMBER//
-void testneon(void)
-{
-  TEST_ASSERT_EQUAL_MESSAGE(0, checkneon(111), "111");
-  TEST_ASSERT_EQUAL_MESSAGE(1, checkneon(9), "9");
-  TEST_ASSERT_EQUAL_MESSAGE(1, checkneon(0), "0");
-  TEST_ASSERT_EQUAL_MESSAGE(-1, checkneon(-9), "-9");
-}
+// void testneon(void)
+// {
+//   TEST_ASSERT_EQUAL_MESSAGE(0, checkneon(111), "111");
+//   TEST_ASSERT_EQUAL_MESSAGE(1, checkneon(9), "9");
+//   TEST_ASSERT_EQUAL_MESSAGE(1, checkneon(0), "0");
+//   TEST_ASSERT_EQUAL_MESSAGE(-1, checkneon(-9), "-9");
+// }
 //PERFECT NUMBER//
 void testperfect(void)
 {
@@ -71,12 +71,12 @@ void testprime(void)
 
 }
 //DECI TO BIN//
-void testdecitobin(void)
-{
-  TEST_ASSERT_EQUAL_MESSAGE(10001, decitobin(17), "17");
-  TEST_ASSERT_EQUAL_MESSAGE(0, decitobin(0), "156");
-  TEST_ASSERT_EQUAL_MESSAGE(-10101, decitobin(-21), "156");
-}
+// void testdecitobin(void)
+// {
+//   TEST_ASSERT_EQUAL_MESSAGE(10001, decitobin(17), "17");
+//   TEST_ASSERT_EQUAL_MESSAGE(0, decitobin(0), "156");
+//   TEST_ASSERT_EQUAL_MESSAGE(-10101, decitobin(-21), "156");
+// }
 //LARGEST IN ARRAY//
 void testlargestinarray(void)
 {
